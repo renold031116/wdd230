@@ -16,7 +16,7 @@ header {
   img {
     justify-self: right;
     align-self: right;
-    width:25%;
+    width:20%;
   }
   
   nav{
@@ -27,6 +27,9 @@ header {
     grid-column:0 / 6;
     font-size: 1.5em;
     text-align: center;
+    max-width: 840px;
+    margin: 0 auto;
+    
   }
 nav a {
     color: white;
@@ -36,6 +39,7 @@ nav a {
     font-weight: 700;
     color: #fff;
     font-size: 1.2rem;
+
 
 }
 main {
