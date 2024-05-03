@@ -19,8 +19,6 @@ header {
     width:25%;
   }
   
-  
- 
   nav{
     display: flex;
     flex-direction: column;
@@ -51,7 +49,7 @@ main {
 }
 
 p{
-    text-align: justify;
+    text-align: center;
     padding: 25px;
     align-items: center;
 }
