@@ -28,8 +28,13 @@ header {
     text-align: center;
     
   }
+
+  .p::first-letter {
+    color: navy;
+    font-size: 2rem;
+  }
   
-  nav{
+  .navigation{
    flex-direction:column;
     background:  slategrey;
     padding: 1rem;
@@ -39,7 +44,7 @@ header {
     display: flex;
     
   }
-nav a {
+.navigation a {
     color: white;
     list-style: none;
     color: #fff;
@@ -112,5 +117,16 @@ h1{
     margin-bottom: 3rem;
 
   }
+
+  #menu::before {
+    content: "☰";
+    color:black;
+    
+  }
+  
+  #menu.open::before {
+    content: "❎";
+  }
+ 
 
   
