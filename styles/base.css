@@ -117,10 +117,13 @@ h1{
     margin-bottom: 3rem;
 
   }
+  #menu{
+    padding: .5rem .75rem;
+  }
 
   #menu::before {
     content: "☰";
-    color:black;
+   
     
   }
   
