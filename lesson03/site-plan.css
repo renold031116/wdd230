@@ -1,1 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Georgia&family=Arial+Black&display=swap');
+nav{
+    background-color: #006494;
+    padding: 25px;
+    width:auto;
+}
+
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+    
+    
+}
+header{
+    background-color: #003554;
+    padding: 20px;
+    width: auto;
+
+}
+
+h2 {
+    color:white; 
+}
+h3,h4,h5,h6{
+    color:white;
+}
+
+
+img {
+    width: 250px;
+    height: auto;
+    border: 1px solid gray;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main img {
+    width: 250px;
+    height: auto;
+    border: 1px solid slateblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    background-color: #bfd7ea;
+}
+footer{
+    background-color: #003554;
+    color:white
+}
+h1, h2, h3, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.dark{
+    background-color: #003554;
+    color:white;
+}
+.blue{
+    background-color: #006494;
+    color:white;
+}
+.light{
+    background-color: #0582CA;
+    color:white;
+}
+.lighter{
+    background-color: #0394E3;
+    color:white;
+}
+.lightest{
+    background-color: #00A6FB;
+    color:white;
+}
