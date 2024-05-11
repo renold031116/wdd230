@@ -35,7 +35,7 @@ header {
   }
   
   .navigation{
-   flex-direction:column;
+   flex-direction:row;
     background:  slategrey;
     padding: 1rem;
     grid-column: 1/6;
@@ -72,7 +72,6 @@ main {
     grid-column: 1/6;
     margin: 0 auto;
     
-   
     
 }
 
