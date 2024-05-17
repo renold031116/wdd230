@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Georgia&family=Arial+Black&display=swap');
+header{
+    background: #003554; 
+    color: white;
+}
+body{
+    background-color:#00A6FB;
+}
+nav{
+    background-color:#0582CA ;
+   
+}
+
+nav a{
+    color: white;
+}
+
+button{
+    background-color: slategray;
+}
+#menu{
+    padding: .5rem .75rem;
+    
+  }
+
+  #menu::before {
+    content: "☰";
+   
+    
+  }
+  footer{
+    background: #003554; 
+    color: white;
+}
