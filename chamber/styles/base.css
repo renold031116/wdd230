@@ -20,7 +20,6 @@ button{
 }
 #menu{
     padding: .5rem .75rem;
-    
   }
 
   #menu::before {
@@ -28,6 +27,11 @@ button{
    
     
   }
+  
+  #menu.open::before {
+    content: "❎";
+  }
+ 
   footer{
     background: #003554; 
     color: white;
