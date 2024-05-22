@@ -3,17 +3,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Assignment for lesson 05 this week to make a dom munipulation document with CSS and JS to learn how it works.">
+    <meta property="og:title" content="Ren Knotts | WDD 230 Book">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://renold031116.github.io">
+    <link rel="stylesheet" href="styles/bom.css">
     <title>Book of Mormon - top 10</title>
 </head>
 <body>
     <header>
-     <h1>Book of Mormon - Top 10</h1>   
+     <h1>📖Book of Mormon - Top 10</h1>   
     </header>
     <main>
         <h2>Enter Book and Chapter:</h2>
-        <input class="box" alt="type">
-        <button id="find" alt="submit">Add Chapter</button>
+        <input type="text" id="favchap" placeholder="D&C 68:6">
+        <button type="submit">Add Chapter</button>
+        <ul id="list"></ul>
+        <button aria-label="Close" id="close-button"></button>
     </main>
-
+    <script src="scripts/bom.js"></script>
 </body>
 </html>
