@@ -61,11 +61,12 @@ nav a{
     grid-column: 2/3;
     
 }
-button{
-    background-color: slategray;
+.button{
+
     color:white;
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
    
 }
 
