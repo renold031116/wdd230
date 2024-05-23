@@ -4,25 +4,60 @@
     padding: 0;
     box-sizing: border-box;
  }
+
+ .hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content: center;  
+    margin-left: 65%;
+ 
+  }
+ 
  
 header{
     background: #003554; 
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-column: 1/6;
 }
 body{
     background-color:#ababab;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    grid-column: 1/6;
 }
 nav{
     background-color:#0582CA ;
+    flex-direction:row;
+    padding: 1rem;
+    grid-column: 1/6;
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
    
 }
 
 nav a{
     color: white;
+    list-style: none;
+    color: #fff;
+    
+    text-align: center;
 }
+
 
 button{
     background-color: slategray;
+    color:white;
+    display: flex;
+    flex-direction: column;
 }
 #menu{
     padding: .5rem .75rem;
@@ -33,6 +68,20 @@ button{
    
     
   }
+  .grid{
+    display: grid;
+    align-items: center;
+}
+.card {
+    width: 100%;
+    grid-column: 1/6;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border: 1px solid darkolivegreen;
+    margin-bottom: 3rem;
+
+  }
+
   
   #menu.open::before {
     content: "❎";
@@ -41,4 +90,23 @@ button{
   footer{
     background: #003554; 
     color: white;
+    padding: 1rem;
+    text-align: center;
+    grid-column: 1/6;
+}
+
+main {
+
+    width:80%;
+    grid-column: 1/6;
+    margin: 0 auto;
+    
+    
+}
+
+p{
+    text-align: center;
+    padding: 25px;
+    align-items: center;
+    
 }
