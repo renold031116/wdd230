@@ -9,7 +9,8 @@
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     justify-content: center;  
-    margin-left: 45%;
+    margin-left: 36%;
+    margin-top: 1.5rem;
     
  
   }
@@ -87,7 +88,8 @@ button{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
     border: 1px solid darkolivegreen;
-    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 
   }
 
