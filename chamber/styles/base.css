@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     justify-content: center;  
-    margin-left: 25%;
+    margin-left: 60%;
     margin-top: 1.5rem;
     
  
@@ -58,16 +58,20 @@ nav a{
     padding: .5rem .75rem;
     text-align: center;
     font-size: 1.75rem;
-    grid-column: 2/3;
-    
+    grid-column: 1/8;
+    display: flex;
+    align-content: center;
 }
 .button{
-
+  margin-left: 60%;
+font-size: medium;
     color:white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 1rem;
-   
+    justify-content: space-evenly;
+   grid-column: 1.8;
+   align-content: center;
 }
 
 #menu{
@@ -83,7 +87,19 @@ nav a{
     display: grid;
     align-items: center;
 }
-.card {
+.card1  {
+    width: 400px;
+    grid-column: 1/6;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border: 1px solid darkolivegreen;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+   
+
+  }
+
+  .card2{
     width: 100%;
     grid-column: 1/6;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -91,7 +107,6 @@ nav a{
     border: 1px solid darkolivegreen;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-
   }
 
   #menu.open::before {
@@ -115,35 +130,62 @@ main {
     
 }
 
-h3, h4{
+h2{
+  margin-top: 5%;
     text-align: center;
-    padding: 25px;
+    padding: 5px;
     align-items: center;
+    grid-column: 1/6;
+
+}
+
+h3, h4{
+ 
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+    grid-column: 1/6;
+    
+    
+}
+
+.one{
+  display: flex;
+  grid-column: 1/6;
 }
 
 p{
     text-align: center;
+    
     padding: 25px;
     align-items: center;
     
 }
 
 
-.help img, .best img, .hard img{
-    
-    width:25%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    grid-column: 1/6;
-    border-radius: 5px;  
-    padding-left: 5%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-   
+.content{
+  align-content: center;
+  
+}
 
+.card1{
+  display: flex;
+  flex-direction: row;
+ 
+}
+.card1 img{
+    
+    width:200px;
+    height: 200px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+   
+    
 
 }
+
+
 
 
   
