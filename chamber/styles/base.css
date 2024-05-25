@@ -119,6 +119,9 @@ font-size: medium;
     padding: 1rem;
     text-align: center;
     grid-column: 1/6;
+    display: flex;
+    flex-direction: row;
+
 }
 
 main {
@@ -129,6 +132,8 @@ main {
     
     
 }
+
+
 
 h2{
   margin-top: 5%;
@@ -161,13 +166,22 @@ p{
     align-items: center;
     
 }
+.card{
+  align-content: center;
+  margin-left: 5%;
+}
 
 
 .content{
   align-content: center;
   
 }
-
+.card2{
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+ 
+}
 .card1{
   display: flex;
   flex-direction: row;
