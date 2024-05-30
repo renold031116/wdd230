@@ -19,7 +19,7 @@ header {
  
   img {
     justify-self: right;
-    align-self: right;
+   
     width:10%;
     display: flex;
     flex-direction: row;
