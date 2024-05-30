@@ -2,7 +2,7 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Ren Knotts - WDD 230 - Web Frontend Development</title>
         <meta name="description" content="Hey Im Ren, welcome to my web site on project progress for WDD 230 Web Frontend Development. To show case my skills please take some time to look a round!">
         <meta name="author" content="Ren Knotts">
@@ -40,10 +40,26 @@
         
 
       </nav>
-      
+      <picture>
+        <div class="hero">
+          <picture>
+            <source media="(max-width:500px)" srcset="image/sac-temple-960px.webp">
+            <source media="(max-width:1000px)" srcset="image/sac-temple-400px.webp">
+            <img 
+           
+            src="images/sac-temple.webp" alt="temple" width="1500" height="750">
+         
+            <script src="scripts/updateText.js"></script>
+          </picture>
+          <div class="herolabel">
+            <p>Sacramento California Temple</p>
+          </div>
+        </div>
+      </picture>
       
       <main class="grid">
         
+   
 
         <h2>WDD 230 - Web Frontend Development</h2>
         
@@ -73,5 +89,6 @@
         <p id="lastModified"></p>
       </footer>
       <script src="scripts/getdates.js"></script>
+    
     </body>
 </html>
