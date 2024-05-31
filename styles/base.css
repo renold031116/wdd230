@@ -139,14 +139,14 @@ h1{
     margin: 10px;
     position: relative;
     
-   diplay: flex;
-   flex-direction: row;
+  
+  
    grid-column: 1/6;
   
   }
   
  .hero img{
-  width: 100%;
+  width:  100%;
   height: auto;
 
  }
