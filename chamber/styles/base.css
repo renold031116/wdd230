@@ -100,6 +100,7 @@ font-size: medium;
     border: 1px solid darkolivegreen;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+    justify-content: space-evenly;
    
 
   }
@@ -112,6 +113,7 @@ font-size: medium;
     border: 1px solid darkolivegreen;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+   
   }
 
   #menu.open::before {
@@ -174,6 +176,7 @@ p{
 .card{
   align-content: center;
   margin-left: 5%;
+  justify-content: space-evenly;
 }
 
 
@@ -184,7 +187,7 @@ p{
 .card2{
   display: flex;
   flex-direction: row;
-  text-align: justify;
+  justify-content: space-evenly;
  
 }
 .card1{
