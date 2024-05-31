@@ -5,14 +5,19 @@
     box-sizing: border-box;
  }
 
- .hero{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    justify-content: center;  
-    margin-left: 60%;
-    margin-top: 1.5rem;
+.hero{
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  grid-column: 1/6;
+}
+
+
+  
+  .hero img {
+    width: 100%;
+    height: auto;
     
- 
   }
  
  

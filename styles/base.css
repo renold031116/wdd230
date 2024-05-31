@@ -136,27 +136,30 @@ h1{
   }
   
   .hero {
-    margin: 8px auto;
+    margin: 10px;
     position: relative;
-    border: 1px solid rgba(0,0,0,.1);
     
+   diplay: flex;
+   flex-direction: row;
+   grid-column: 1/6;
+  
   }
   
-  .hero img {
-    width: 100%;
-    height: auto;
-    
-  }
+ .hero img{
+  width: 100%;
+  height: auto;
+
+ }
   
   .herolabel {
     position: absolute;
-    top: 30px;
+    top: 10px;
     left: 30px;
     background: radial-gradient(#fff, #4D5B97);
     border: 1px solid rgba(0,0,0,.75);
     padding: 1.5rem;
     box-shadow: 0 0 3rem #fff;
-    opacity: 0.75;
+    opacity: 0.5;
     
   }
   
