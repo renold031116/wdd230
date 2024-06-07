@@ -275,3 +275,13 @@ p{
   .slider.round:before {
     border-radius: 50%;
   }
+  .label {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+  }
+  
+  #visits {
+    color: navy;
+    font-weight: bolder;
+    font-size: larger;
+  }
