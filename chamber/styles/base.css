@@ -158,6 +158,10 @@ padding-top: .5rem;
     
 
   }
+  .one{
+    display: flex;
+    grid-column: 1/6;
+  }
  
   .card4 img{
     padding-top: .5rem;
