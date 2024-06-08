@@ -206,6 +206,7 @@ h3, h4{
     padding: 5px;
     align-items: center;
     grid-column: 1/6;
+    padding-top: .5rem;
     
     
 }
