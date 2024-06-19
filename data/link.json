@@ -1,0 +1,29 @@
+
+{
+    "lessons": [
+      {
+        "lesson": "02", 
+        "links": [
+        
+          {
+            "url":"lesson02/design-principles.html",
+            "title":"Design Principles Document"
+          },
+          {
+            "url":"lesson03/chamber-site-plan.html",
+            "title":"Chamber Site Plan"
+          },
+          {
+            "url":"lesson05/bom.html",
+            "title":"Book of Mormon"
+          }
+     
+        ]
+      
+      }
+      
+    ]
+}
+
+
+
