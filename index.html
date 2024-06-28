@@ -33,7 +33,7 @@
       <nav class="navigation">
         <a href="index.html">Main</a>
         <a href="home.html">Home</a>
-        <a href="form.html">form</a>
+        <a href="form.html">Form</a>
 
         <a href="chamber/index.html">Chamber</a>
         <a href="https://www.byui.edu">BYU Idaho</a>
@@ -77,12 +77,14 @@
             
         </section>
         <section class="card">
-            <h3>Information</h3>
-            <p class="firstletter">Payson Utah, United states</p>
-            <p>Weather</p>
-            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
-        </section>
-      
+        <h3>Information</h3>
+        <figure>
+            <img id="weather-icon" src="" alt="">
+            <span id="current-temp"></span>
+            <figcaption></figcaption>
+        </figure>
+        <p>Page Visits: <span class="number"></span></p>
+</section>
       </main>
       
       <button id="menu"></button>
@@ -95,5 +97,6 @@
       </footer>
       <script src="scripts/getdates.js"></script>
       <script src="scripts/links.js"></script>
+      <script src="scripts/weather.js"></script>
     </body>
 </html>
