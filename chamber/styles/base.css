@@ -335,3 +335,17 @@ p{
     font-weight: bolder;
     font-size: larger;
   }
+  figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+  }
+
+  figure img {
+    width: 25%;
+    height: auto;
+  }
+  #current-temp, figcaption {
+    margin-right: 10px;
+  }
