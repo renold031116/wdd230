@@ -238,7 +238,7 @@ p{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
- 
+ padding: 1rem;
 }
 .card1{
   display: flex;
