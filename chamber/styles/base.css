@@ -259,6 +259,7 @@ p{
 #benefits {
   margin: 0 auto;
   max-width: 50%;
+  grid-column: 1/6;
 }
 
 .bronze, .silver, .gold{
