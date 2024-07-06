@@ -109,7 +109,7 @@ font-size: medium;
   }
 
   .card2{
-    width: 350px;
+    width: 500px;
     grid-column: 1/6;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
@@ -243,9 +243,9 @@ p{
 }
 .card2{
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
- padding: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+ padding: 3rem;
 }
 .card1{
   display: flex;
