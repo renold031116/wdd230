@@ -266,8 +266,8 @@ p{
 
 #benefits {
   margin: 0 auto;
-  max-width: 50%;
-  grid-column: 1/6;
+  max-width: 100%;
+
 
 }
 
@@ -282,7 +282,7 @@ p{
   width: 100%;
   height: auto;
   text-align: center;
-  justify-content: space-evenly;
+  
 }  
 
 #benefits h2 {
