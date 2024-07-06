@@ -256,6 +256,53 @@ p{
     
 
 }
+#benefits {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.bronze, .silver, .gold{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: space-evenly;
+}  
+
+#benefits h2 {
+  background-color:aquamarine;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-top:0px;
+}
+
+#benefits h3 {
+  font-size: 1.25rem;
+  margin-top:0;
+}
+
+#benefits ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 1.5rem;;
+}
+
+#benfits li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  
+}
+
 
 
 
