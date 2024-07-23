@@ -135,7 +135,7 @@ font-size: medium;
     padding-left: .5rem;
     padding-right: .5rem;
     padding-bottom: .5rem;
-    background-color: aquamarine;
+    background-color: blanchedalmond;
   }
 
   .card3 h2{
@@ -286,8 +286,8 @@ p{
 }  
 
 #benefits h2 {
-  background-color:aquamarine;
-  color: white;
+  background-color:blanchedalmond;
+  color: black;
   font-size: 2rem;
   padding: 1rem;
   margin-top:0px;
