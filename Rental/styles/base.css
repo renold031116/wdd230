@@ -23,7 +23,7 @@
  
  
 header{
-    background: #003554; 
+    background: #59c2ff; 
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: .5rem;
@@ -34,7 +34,7 @@ header{
     grid-column: 1/6;
 }
 body{
-    background-color:#ababab;
+    background-color:#636262;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     display: grid;
     font-family: Arial, Helvetica, sans-serif;
@@ -181,7 +181,7 @@ padding-top: .5rem;
   }
  
   footer{
-    background: #003554; 
+    background: #59c2ff; 
     color: white;
     padding: 1rem;
     text-align: center;
