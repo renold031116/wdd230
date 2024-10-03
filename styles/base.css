@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Georgia&family=Arial+Black&display=swap');
 header {
     background: #355e5e;
     padding: 2rem;
@@ -136,7 +136,6 @@ h1{
     margin-bottom: 3rem;
 
   }
-  
   #menu{
     padding: .5rem .75rem;
   }
@@ -150,67 +149,69 @@ h1{
   #menu.open::before {
     content: "❎";
   }
-  .switch {
+ 
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .hero {
+    margin: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border: 1px solid darkolivegreen;
+   grid-column: 1/6;
+  
+  }
+  
+ .hero img{
+  width:  100%;
+  height: auto;
+
+ }
+  
+  .herolabel {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
-    width: 60px;
-    height: 34px;
+    top: 10px;
+    left: 30px;
+    background: radial-gradient(#fff, #4D5B97);
+    border: 1px solid rgba(0,0,0,.75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.5;
+    
   }
   
-  .switch input { 
-    opacity: 0;
-    width: 0;
-    height: 0;
+  .herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: fantasy;
   }
   
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #96CCD9;
-    -webkit-transition: .4s;
-    transition: .4s;
+  .label {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
   }
   
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: #5C5173;
-    -webkit-transition: .4s;
-    transition: .4s;
+  #visits {
+    color: navy;
+    font-weight: bolder;
+    font-size: larger;
   }
-  
-  input:checked + .slider {
-    background-color: black;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px black;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+  figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
   }
 
-  .dark-mode {
-    background-color: black;
-    color: white;
+  figure img {
+    width: 25%;
+    height: auto;
   }
-  
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
+  #current-temp, figcaption {
+    margin-right: 10px;
   }
